@@ -1,0 +1,15 @@
+@use 'sass:map';
+
+$font-family: (
+    primary: ('Lexend Deca', sans-serif),
+    title: ('Big Shoulders Display', cursive)
+);
+
+@function ff($key) {
+    @return map.get($font-family, $key);
+}
+
+:root {
+    --fs-400: 1rem;
+    --fs-450: 1.125rem;
+}

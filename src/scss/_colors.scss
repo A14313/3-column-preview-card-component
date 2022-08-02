@@ -1,0 +1,18 @@
+/*Bright orange: hsl(31, 77%, 52%)
+Dark cyan: hsl(184, 100%, 22%)
+Very dark cyan: hsl(179, 100%, 13%)*/
+
+@use 'sass:map';
+
+$colors: (
+    bright-orange: hsl(31, 77%, 52%),
+    dark-cyan: hsl(184, 100%, 22%),
+    very-dark-cyan: hsl(179, 100%, 13%),
+
+    text-primary: hsla(0, 0%, 100%, 0.75),
+    text-secondary: hsl(0, 0%, 95%) /*Very light gray (background, headings, buttons)*/
+);
+
+@function color($key) {
+    @return map.get($colors, $key);
+}
