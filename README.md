@@ -15,8 +15,8 @@
 
 ### Links
 - [Solution URL]()
-- [Live Site URL]()
+- [Live Site URL](https://a14313.github.io/3-column-preview-card-component-FEM/dist/)
 
 ## Author
-- [Github](https://github.com/A14313)
+- [Carlo Autor - Github](https://github.com/A14313)
 - [Frontend Mentor](https://www.frontendmentor.io/profile/A14313)
