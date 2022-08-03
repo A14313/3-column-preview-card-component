@@ -14,7 +14,7 @@
 - Mobile-first workflow
 
 ### Links
-- [Solution URL]()
+- [Solution URL](https://www.frontendmentor.io/solutions/responsive-3-column-layout-using-css-flex-and-grid-RVz03Qq5SI)
 - [Live Site URL](https://a14313.github.io/3-column-preview-card-component-FEM/dist/)
 
 ## Author
