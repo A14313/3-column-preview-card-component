@@ -57,8 +57,8 @@ body {
     margin-inline: auto;
 
     @include mediaQuery(sm) {
-        max-width: unset;
-        margin-inline: unset;
+       /* max-width: unset;
+        margin-inline: unset;*/
     }
 
     @include mediaQuery(med) {
@@ -71,13 +71,15 @@ body {
         margin-inline: auto;
 
         @include mediaQuery(sm) {
-            display: grid;
+            /*display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 0;
+            gap: 0;*/
         }
 
         @include mediaQuery(med) {
+            display: grid;
             grid-template-columns: repeat(3, 1fr);
+            gap: 0;
             max-width: 900px;
         }
     }
@@ -108,6 +110,10 @@ body {
         border-radius: 0.625em 0.625em 0 0;
 
         @include mediaQuery(sm) {
+            border-radius: 0.625em 0.625em 0 0;
+        }
+        
+        @include mediaQuery(med) {
             border-radius: 0.625em 0 0 0;
         }
 
@@ -125,7 +131,7 @@ body {
         background-color: color(dark-cyan);
 
         @include mediaQuery(sm) {
-            border-radius: 0 0.625em 0.625em 0;
+            border-radius: 0 0 0 0;
         }
 
         @include mediaQuery(med) {
